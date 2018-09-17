@@ -1,0 +1,90 @@
+body { overflow-x:hidden; font-family: 'Open Sans', sans-serif;}
+
+/*COLORES DE LA PLANTILLA*/
+
+.m_fondo { background-color: #161c1e;}
+.t_color { color:#373737;}
+.m_color { color:#f2f2f2;}
+.sub_m_fondo { background-color:#373737;}
+.fondo_cont { background:white!important; }
+.a_color { color: #FFFFFF; }
+.l_color { color: #ff2a00; }
+.c_fondo { background-color:#ff2a00;}
+.d_color { color: #373737;}
+.fondo { background: url(../img/trama.png) repeat; }
+
+/*ESTILOS DEL MENU*/
+
+.logo{ text-align: center; padding-top:18px; }
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{background-color:#161c1e;}
+.navbar-toggle { position: relative; float: right; padding: 9px 10px;margin-right: 15px; margin-bottom: 8px; border-radius: 0px;border: 3px solid transparent;}
+.navbar-default {border-color: #161c1e;}
+.navbar-default .navbar-toggle {border-color: #161c1e;}
+.navbar-default .navbar-toggle:hover {background-color: #161c1e;}
+.navbar-header a img{ width:60px; height:20px; margin:20px;}
+.dropdown-menu{ padding:0px; margin:50px;}
+.dropdown-menu>li>a {padding: 20px 20px;}
+.borde { border-right:1px solid #f2f2f2;}
+.cont {clear: both;float: left;width: 100%;}
+.nav>li>a {padding: 10px 15px;}
+#menu {float:left; left:50%; list-style-type:none; margin:0 auto; padding:0.5px; position:relative;}
+#menu li a {font-size:15px; color:#f2f2f2;}
+#menu li a:hover {background-color:#e11e03; color:white}
+#menu .alin {position:relative; right:50%;}
+
+/* ESTILOS DEL CAROUSEL */
+
+.carousel-indicators li { padding:-8px 15px; border-radius: 0px; }
+.carousel-inner img { width:1500px; height:200px; }
+.centered { position: absolute; top: 50%; left: 30%;transform: translate(-50%, -50%); }
+.centered h3 { font-size:30px; font-weight:bold; text-transform:uppercase; color:white;}
+.centered p { color:white; font-size:15px; }
+
+/* ESTILOS DEL CONTENIDO INDEX */
+
+.content_f { display:flex; align-items:center; padding:50px 0px 50px;}
+.content_g .col-md-4  { width:300px; }
+.content_g h3 {font-size:15px;line-height:20px; font-weight:bold;}
+.content_g p {font-size:12px; line-height:20px; }
+.content img {opacity: 0.7; height:150px;}
+.content h3 { font-size:15px;line-height:20px; font-weight:bold; text-align:center;}
+.content p { font-size:12px; line-height:20px; text-align:center;}
+h2 { margin-left: 20px; font-weight:bold; }
+
+/* ESTILOS DEL FOOTER */
+
+.box{display:flex; justify-content:space-between; align-items:center; padding-bottom:20px;}
+.box h2{font-size:20px;}
+.box small {font-size:12px; line-height:27px; }
+.box small img {margin-right: 10px;}
+.footer{padding:20px 0; display:flex;}
+
+/*ESTILOS CONTENIDO SOBRE NOSOTROS*/
+
+.seccion { border-bottom: 3px solid #ff2a00; }
+.head_seccion {width:100%; min-width:1000px; height:100px;margin: 0 auto;background-image:url(../img/bg-title-banner.jpg);border-bottom: #3a3a3a solid 20px; float:left;}
+.head_seccion h2 {text-transform:uppercase; font-size:37px; text-align:left;}
+.head-seccion-a { display:flex; align-items:center; margin-top:40px; }
+.head-seccion-a img {width:90%;}
+.head-seccion-b {display:block; float:left; width:48%; margin-left:8%; margin-bottom: 5%; padding-bottom: 5%;}
+.head-seccion-b h1 { font-size:21px; font-weight:bold; }
+.head-seccion-b p { font-size:13px; line-height:20px; }
+.head-seccion-b a { text-decoration:none; font-size:13px; }
+.head-seccion-b a:hover { color: grey;}
+
+/*ESTILOS CONTACTO*/
+
+.contacto { display:flex; justify-content: center;  }
+input[type=text], select, textarea {width:70%; padding: 12px; border: 1px solid #ccc; margin-top: 6px; margin-bottom: 16px; resize: vertical;}
+input[type=submit] {padding: 12px 20px;border: none;cursor: pointer;}
+input[type=submit]:hover {background-color:#373737;}
+.column {float: left;width: 50%;margin-top: 6px;padding: 20px;}
+.row:after {display: table;clear: both;}
+@media screen and (max-width: 600px) {.column, input[type=submit] {width: 20%;margin-top: 0;}}
+@media screen and (max-width: 600px) {.contacto img  { right:20%; }
+
+/*ESTILOS DE LOGISTICA*/
+
+.contenedor img { width:350px; }
+.contenedor h2 { font-size: 23px; }
+.contenedor .content-t p { font-size:12px;line-height:15px; margin-left:20px;}
